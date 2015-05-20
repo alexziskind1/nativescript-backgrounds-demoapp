@@ -1,0 +1,16 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd">
+    <GridLayout rows="*, *, *, *" columns="*">
+        <Border row="0" col="0" borderWidth="1" borderColor="#333333" loaded="borderLoaded1">
+            <Button text="{N}" cssClass="btn-action" tap="{{ btnTap }}" />
+        </Border>
+        <Border row="1" col="0" borderWidth="1" borderColor="#333333" loaded="borderLoaded2">
+            <Button text="{N}" cssClass="btn-action" tap="{{ btnTap }}" />
+        </Border>
+        <Border row="2" col="0" borderWidth="1" borderColor="#333333" loaded="borderLoaded3">
+            <Button text="{N}" cssClass="btn-action" tap="{{ btnTap }}" />
+        </Border>
+        <Border row="3" col="0" borderWidth="1" borderColor="#333333" loaded="borderLoaded4">
+            <Button text="{N}" cssClass="btn-action" tap="{{ btnTap }}" />
+        </Border>
+    </GridLayout>
+</Page>
